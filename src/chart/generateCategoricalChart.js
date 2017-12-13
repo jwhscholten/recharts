@@ -711,6 +711,7 @@ const generateCategoricalChart = ({
         onMouseEnter: this.handleMouseEnter,
         onMouseMove: this.handleMouseMove,
         onMouseLeave: this.handleMouseLeave,
+        onTouchStart: this.handleTouchMove,
         onTouchMove: this.handleTouchMove,
       } : {};
       const outerEvents = filterEventAttributes(this.props, this.handleOuterEvent);
